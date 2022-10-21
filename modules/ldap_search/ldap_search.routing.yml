@@ -1,0 +1,7 @@
+ldap_search.search_endpoint:
+  path: '/v1/search_ldap_endpoint'
+  methods:  [GET]
+  defaults:
+    _controller: '\Drupal\ldap_search\Controller\SearchLdapEndpointController::get'
+  requirements:
+    _permission: 'access content'

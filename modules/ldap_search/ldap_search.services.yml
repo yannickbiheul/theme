@@ -1,0 +1,3 @@
+services:
+ ldap_search.search:
+   class: Drupal\ldap_search\Services\SearchResources

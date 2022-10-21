@@ -1,0 +1,19 @@
+name: Theme test
+type: theme
+description: 'Thème de test.'
+package: Mes thèmes
+core_version_requirement: ^8 || ^9
+libraries:
+  - theme_test/global-styling
+base theme: classy
+regions:
+  branding: 'Branding'
+  navigation: 'Main navigation'
+  search: 'Search'
+  featured: 'Featured'
+  content: 'Content'
+  right_sidebar: 'Right Sidebar'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third'
+  footer_bootom: 'Footer Bottom'

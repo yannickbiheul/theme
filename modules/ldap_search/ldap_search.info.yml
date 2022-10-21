@@ -1,0 +1,18 @@
+name: 'LDAP Search Service'
+description: 'Module intended to provide WebService APIs for Searching LDAP.'
+package: 'Others'
+
+dependencies:
+  - ldap:ldap_servers
+  - ldap:ldap_authentication
+  - drupal:rest
+  - drupal:serialization
+
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+# Information added by Drupal.org packaging script on 2020-05-20
+version: '8.x-3.3'
+project: 'ldap_search'
+datestamp: 1589972308
