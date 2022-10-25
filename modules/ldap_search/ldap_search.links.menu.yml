@@ -1,5 +1,0 @@
-# ldap_search.requete:
-#   title: 'Requêtes LDAP'
-#   description: 'Lien vers la page de requêtes'
-#   route_name: ldap_search.search_endpoint
-#   menu_name: main

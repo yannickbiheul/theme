@@ -1,0 +1,7 @@
+astreinte.page:
+  path: /astreinte
+  defaults: 
+    _controller: '\Drupal\astreinte\Controller\AstreinteController::Start'
+    _title: 'Astreinte'
+  requirements:
+    _permission: 'access content'

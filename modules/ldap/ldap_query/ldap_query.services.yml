@@ -1,4 +1,0 @@
-services:
-  ldap.query:
-    class: Drupal\ldap_query\Controller\QueryController
-    arguments: ['@entity_type.manager', '@ldap.bridge', '@logger.channel.ldap_servers']
