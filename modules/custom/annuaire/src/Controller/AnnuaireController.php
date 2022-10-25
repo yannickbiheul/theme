@@ -13,7 +13,7 @@ class AnnuaireController extends ControllerBase
         $element = array('#markup' => $salut);
         // return $element;
         return array(
-            '#theme' => 'my_template',
+            '#theme' => 'annuaire',
             '#data' => [
                 'salut' => $salut,
             ],

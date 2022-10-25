@@ -21,6 +21,7 @@ stylesheets-remove:
 
 regions:
   navigation: 'Navigation'
+  search: 'Search'
   banner: 'Banner'
   acces_rapides: 'Accès Rapides'
   content: 'Content'

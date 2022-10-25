@@ -24,7 +24,7 @@ class AnnuaireBlock extends BlockBase
         $salut = $annuaireService->hello();
         $services = $annuaireService->callAnnuaire();
         return array(
-            '#theme' => 'my_template',
+            '#theme' => 'annuaire',
             '#services' => $services,
             '#data' => [
                 'salut' => $salut,
