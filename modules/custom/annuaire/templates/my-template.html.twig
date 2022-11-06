@@ -15,16 +15,6 @@
 						{% endfor %}
 					</select>
 				</div>
-                {# SERVICE #}
-				<div class="mb-3 mt-3">
-					<label for="hopitaux" class="form-label">Hopitaux</label>
-					<select class="form-select" aria-label="Default select example" id="hopitaux">
-						<option selected></option>
-                        {% for hopital in hopitaux %}
-						<option value="{{ hopital.nom }}" class="selectHopital">{{ hopital.nom }}</option>
-						{% endfor %}
-					</select>
-				</div>
 				{# SERVICE #}
 				<div class="mb-3 mt-3">
 					<label for="service" class="form-label">Service</label>
