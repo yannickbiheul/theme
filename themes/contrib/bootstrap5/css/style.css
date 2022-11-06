@@ -99,6 +99,26 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/*
+*!
+* Début de la modif pour le site intranet du CHIC
+* Garder le footer en bas
+*
+*/
+.site-wrap {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Fin de la modif */
+
 hr {
   margin: 1rem 0;
   color: inherit;

@@ -1,9 +1,0 @@
-{
-    "name": "drupal/ldap_search",
-    "type": "drupal-module",
-    "description": "This module provides a seamless way to provide an API for developers to use.",
-    "license": "GPL-2.0+",
-    "require": {
-        "drupal/core": "^8 || ^9"
-    }
-}

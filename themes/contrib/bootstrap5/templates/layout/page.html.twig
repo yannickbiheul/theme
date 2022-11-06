@@ -43,14 +43,20 @@
  */
 #}
 
-<header>
+<div class="site-wrap">
+<header class="site-header">
 	<nav class="navbar navbar-expand-lg bg-light" style="background-color: #fff !important">
-		<div class="container-fluid d-flex justify-content-between">
+		<div
+			class="container-fluid d-flex justify-content-between">
+
+			{# LOGO #}
 			<div>
 				<a class="navbar-brand" href="#">
 					<img src="https://www.ch-cornouaille.fr/sites/ch-quimper/files/theme_base_logo_b.png" alt="logo CHC">
 				</a>
 			</div>
+
+			{# MENU #}
 			<div>
 				<div>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,25 +67,38 @@
 					{{ page.navigation }}
 				</div>
 			</div>
+
+			{# RECHERCHE #}
+			<div>
+				{{ page.search }}
+			</div>
 		</div>
 	</nav>
+<<<<<<< HEAD
+=======
+
+	<div class="container-fluid">
+		{{ page.banner }}
+	</div>
+>>>>>>> 6de80d64fb9fb55404e2f9ce0a9eb52294e94890
 </header>
 
-<main>
+<main  class="site-content">
 	{{ page.content }}
 </main>
 
-<footer>
-  <div class="container-fluid d-flex justify-content-around" style="background-color: #ccc">
-	<div>
-		{{ page.footer }}
-	</div>
-	<div>		
-		{{ page.footer2 }}
-	</div>
-	<div>	
-		{{ page.footer3 }}
-	</div>
-  </div>
-</footer>
 
+<footer class="site-footer">
+	<div class="container-fluid d-flex justify-content-around" style="background-color: #ccc">
+		<div>
+			{{ page.footer }}
+		</div>
+		<div class="d-flex align-items-end">
+			{{ page.footer2 }}
+		</div>
+		<div>
+			{{ page.footer3 }}
+		</div>
+	</div>
+</footer>
+</div>

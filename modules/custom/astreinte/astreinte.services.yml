@@ -1,0 +1,3 @@
+services:
+  astreinte.service:
+    class: Drupal\astreinte\Service\AstreinteService

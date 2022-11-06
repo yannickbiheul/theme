@@ -21,10 +21,13 @@ stylesheets-remove:
 
 regions:
   navigation: 'Navigation'
+  search: 'Search'
   banner: 'Banner'
   acces_rapides: 'Accès Rapides'
   content: 'Content'
   footer: 'Footer'
+  footer2: 'Footer2'
+  footer3: 'Footer3'
 
 # Information added by Drupal.org packaging script on 2022-10-10
 version: '2.0.2'

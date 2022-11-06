@@ -25,7 +25,7 @@ class AnnuaireBlock extends BlockBase
         $services = $annuaireService->callAnnuaire();
         $hopitaux = json_decode(file_get_contents("http://127.0.0.1:8000/api/hopitaux"));
         return array(
-            '#theme' => 'my_template',
+            '#theme' => 'annuaire',
             '#services' => $services,
             '#hopitaux' => $hopitaux,
             '#data' => [
